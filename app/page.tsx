@@ -1,4 +1,5 @@
 import About from "./_sections/about/about";
+import Contact from "./_sections/contact/contact";
 import Header from "./_sections/header/header";
 import Hero from "./_sections/hero/hero";
 import Projects from "./_sections/projects/projects";
@@ -19,7 +20,7 @@ export default function Home() {
           <Projects />
         </section>
         <section className="h-full md:h-screen" id="contact" style={{ backgroundColor: colors.bg2 }}>
-
+          <Contact />
         </section>
       </main>
     </>
