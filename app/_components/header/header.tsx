@@ -4,7 +4,7 @@ import Linkdin from './icons/linkdin';
 
 export default function Header() {
     return (
-        <header className="flex w-full flex-row" style={{ height: '70px', backgroundColor: 'rgba(40, 40, 40, 0.70)' }}>
+        <header className="flex w-full flex-row absolute top-0 right-0" style={{ height: '70px', backgroundColor: 'rgba(40, 40, 40, 0.70)' }}>
             <nav role='navigation' className='flex flex-row items-center ml-12'>
                 <ul className='flex flex-row justify-center space-x-7 text-white'>
                     <li><a className='link' href="#about">About</a></li>

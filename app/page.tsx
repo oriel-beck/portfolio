@@ -7,16 +7,16 @@ export default function Home() {
     <>
       <Header />
       <main className="flex flex-col">
-        <section id="hero" style={{ backgroundColor: colors.bg1 }}>
+        <section className="h-screen" id="hero" style={{ backgroundColor: colors.bg1 }}>
           <Hero />
         </section>
-        <section id="about" style={{ backgroundColor: colors.bg2 }}>
+        <section className="h-screen" id="about" style={{ backgroundColor: colors.bg2 }}>
 
         </section>
-        <section id="projects" style={{ backgroundColor: colors.bg1 }}>
+        <section className="h-screen" id="projects" style={{ backgroundColor: colors.bg1 }}>
 
         </section>
-        <section id="contact" style={{ backgroundColor: colors.bg2 }}>
+        <section className="h-screen" id="contact" style={{ backgroundColor: colors.bg2 }}>
 
         </section>
       </main>
