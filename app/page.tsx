@@ -11,13 +11,13 @@ export default function Home() {
         <section className="h-screen" id="hero" style={{ backgroundColor: colors.bg1 }}>
           <Hero />
         </section>
-        <section className="h-screen" id="about" style={{ backgroundColor: colors.bg2 }}>
+        <section className="h-full md:h-screen" id="about" style={{ backgroundColor: colors.bg2 }}>
           <About />
         </section>
-        <section className="h-screen" id="projects" style={{ backgroundColor: colors.bg1 }}>
+        <section className="h-full md:h-screen" id="projects" style={{ backgroundColor: colors.bg1 }}>
 
         </section>
-        <section className="h-screen" id="contact" style={{ backgroundColor: colors.bg2 }}>
+        <section className="h-full md:h-screen" id="contact" style={{ backgroundColor: colors.bg2 }}>
 
         </section>
       </main>
