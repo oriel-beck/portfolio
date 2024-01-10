@@ -9,7 +9,7 @@ export default function Projects() {
             </div>
             <div className="flex flex-col h-full items-center pt-10">
                 <ul>
-                    <li className="flex flex-row px-52 pt-5 space-x-20">
+                    <li className="flex flex-col md:flex-row  md:px-52 pt-5 space-x-20">
                         <div>
                             <a href="https://nekos.best" target="_blank">
                                 <Heading heading="Nekos.best" level="h3" />
@@ -21,7 +21,7 @@ export default function Projects() {
                                 src='/nekos-best.png'
                                 alt='nekos.best logo'
                                 aria-hidden='true'
-                                className="min-h-40 min-w-40"
+                                className="hidden md:block min-h-40 min-w-40"
                                 height={300}
                                 width={300}
                             />
