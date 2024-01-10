@@ -15,11 +15,11 @@ export default function Header() {
             <span aria-hidden="true" className='flex flex-1'>
 
             </span>
-            <div className='flex flex-row items-center mr-5'>
-                <a href="" className='mr-5 icon'>
+            <div className='flex flex-row items-center mr-5 space-x-5'>
+                <a href="https://github.com/oriel-beck" className='icon'>
                     <Github />
                 </a>
-                <a className='icon' href="">
+                <a href="https://www.linkedin.com/in/oriel-beck" className='icon'>
                     <Linkdin />
                 </a>
             </div>
