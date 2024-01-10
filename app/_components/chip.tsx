@@ -1,4 +1,4 @@
-import colors from '../../colors.module.scss';
+import colors from '../colors.module.scss';
 
 export default function Chip({ label }: { label: string }) {
     return (

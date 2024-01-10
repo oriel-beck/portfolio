@@ -1,4 +1,4 @@
-import colors from '../../colors.module.scss';
+import colors from '../colors.module.scss'
 
 export default function Heading({ heading, level }: { heading: string, level: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' }) {
     switch(level) {

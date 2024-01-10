@@ -1,6 +1,6 @@
-import About from "./_components/about/about";
-import Header from "./_components/header/header";
-import Hero from "./_components/hero/hero";
+import About from "./_sections/about/about";
+import Header from "./_sections/header/header";
+import Hero from "./_sections/hero/hero";
 import colors from './colors.module.scss';
 
 export default function Home() {

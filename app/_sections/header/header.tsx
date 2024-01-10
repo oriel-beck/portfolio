@@ -1,6 +1,6 @@
+import Github from '@/app/_components/icons/github';
+import Linkdin from '@/app/_components/icons/linkdin';
 import './header.scss';
-import Github from './icons/github';
-import Linkdin from './icons/linkdin';
 
 export default function Header() {
     return (

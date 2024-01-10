@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Heading from '../heading/heading';
+import Heading from '../../_components/heading';
 
 
 export default function Hero() {
