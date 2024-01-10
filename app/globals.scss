@@ -1,0 +1,9 @@
+@use './variables.module.scss' as colors;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: colors.$bg-1;
+}
