@@ -1,6 +1,7 @@
 import About from "./_sections/about/about";
 import Header from "./_sections/header/header";
 import Hero from "./_sections/hero/hero";
+import Projects from "./_sections/projects/projects";
 import colors from './colors.module.scss';
 
 export default function Home() {
@@ -15,7 +16,7 @@ export default function Home() {
           <About />
         </section>
         <section className="h-full md:h-screen" id="projects" style={{ backgroundColor: colors.bg1 }}>
-
+          <Projects />
         </section>
         <section className="h-full md:h-screen" id="contact" style={{ backgroundColor: colors.bg2 }}>
 

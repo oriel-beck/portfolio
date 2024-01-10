@@ -12,6 +12,7 @@ export default function Hero() {
             </div>
             <div className="image hidden md:block">
                 <Image
+                priority
                 src="/hero.png"
                 aria-hidden="true"
                 alt=''
