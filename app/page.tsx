@@ -1,6 +1,7 @@
+import About from "./_components/about/about";
 import Header from "./_components/header/header";
 import Hero from "./_components/hero/hero";
-import colors from './variables.module.scss';
+import colors from './colors.module.scss';
 
 export default function Home() {
   return (
@@ -11,7 +12,7 @@ export default function Home() {
           <Hero />
         </section>
         <section className="h-screen" id="about" style={{ backgroundColor: colors.bg2 }}>
-
+          <About />
         </section>
         <section className="h-screen" id="projects" style={{ backgroundColor: colors.bg1 }}>
 

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import colors from '../../variables.module.scss';
+import colors from '../../colors.module.scss';
 
 
 export default function Hero() {
