@@ -20,7 +20,7 @@ export default function Home() {
         <section className="h-full md:h-screen" id="projects" style={{ backgroundColor: colors.bg1 }}>
           <Projects />
         </section>
-        <section className="h-full md:h-screen" id="contact" style={{ backgroundColor: colors.bg2 }}>
+        <section className="h-full md:h-screen pb-10 md:pb-0" id="contact" style={{ backgroundColor: colors.bg2 }}>
           <Contact />
         </section>
       </main>
