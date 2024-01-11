@@ -1,8 +1,7 @@
-import { randomUUID } from "crypto"
 import Label from "../label";
 import './input.scss'
 
-export default function Input({ label, name, placeholder, id, type = "text", }: { label: string, placeholder: string, name: string, id: string, type?: string }) {
+export default function Input({ label, name, placeholder, id, type = "text" }: { label: string, placeholder: string, name: string, id: string, type?: string }) {
 
     if (type === "textarea") return (
         <div className="flex flex-col h-full w-full">
