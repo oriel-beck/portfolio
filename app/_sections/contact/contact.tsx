@@ -1,9 +1,12 @@
 import { Form } from "@/app/_components/form";
 import Heading from "@/app/_components/heading";
 import { sendEmail } from "@/app/api/send-email";
+import { useFormState } from "react-dom";
 import colors from '../../colors.module.scss';
 
 export default function Contact() {
+    const [error, formAction] = useFormState<string | null, FormData>(sendEmail, null);
+
     return (
         <div className="flex flex-col items-center justify-center h-full">
             <div>
@@ -11,9 +14,10 @@ export default function Contact() {
                     <Heading heading="Contact me" level="h2" />
                 </div>
                 <div className="w-full md:w-fit md:rounded px-12 py-7" style={{ backgroundColor: colors.bg1 }}>
-                    <Form action={sendEmail} />
+                    <Form action={formAction} />
                 </div>
             </div>
+            {<p className="min-h-7 text-red-400" aria-hidden={!!error}>{error}</p>}
         </div>
     )
 }
