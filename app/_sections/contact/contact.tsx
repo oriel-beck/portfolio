@@ -8,12 +8,12 @@ export default function Contact() {
     const [error, formAction] = useFormState<string | null, FormData>(sendEmail, null);
 
     return (
-        <div className="flex flex-col items-center justify-center h-full">
+        <div className="flex flex-col items-center justify-center h-full mt-10 md:mt-0 ">
             <div>
-                <div className="rounded-t-lg h-12 w-full flex flex-col justify-center items-center bg-gray-400">
+                <div className="rounded-t-lg h-12 w-full flex flex-col justify-center items-center bg-black">
                     <Heading heading="Contact me" level="h2" />
                 </div>
-                <div className="w-full md:w-fit md:rounded px-12 py-7" style={{ backgroundColor: colors.bg1 }}>
+                <div className="w-full md:w-fit md:rounded-b px-12 py-7 bg-neutral-900">
                     <Form action={formAction} />
                 </div>
             </div>

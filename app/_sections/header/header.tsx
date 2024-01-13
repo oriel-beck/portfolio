@@ -12,14 +12,12 @@ export default function Header() {
                     <li><a className='link' href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <span aria-hidden="true" className='flex flex-1'>
-
-            </span>
+            <span aria-hidden="true" className='flex flex-1'></span>
             <div className='flex flex-row items-center mr-5 space-x-5'>
-                <a href="https://github.com/oriel-beck" className='icon'>
+                <a aria-label='Github' href="https://github.com/oriel-beck" className='icon'>
                     <Github />
                 </a>
-                <a href="https://www.linkedin.com/in/oriel-beck" className='icon'>
+                <a aria-label='Linkdin' href="https://www.linkedin.com/in/oriel-beck" className='icon'>
                     <Linkdin />
                 </a>
             </div>

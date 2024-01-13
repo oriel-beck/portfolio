@@ -5,7 +5,7 @@ export default function About() {
     const skills = ["HTML", "(S)CSS", "JavaScript", "TypeScript", "ASP.NET", "Python", "Angular", "React", "Vue", "Docker", "Figma", "Azure", "AWS", "SQL", "GIT"]
     return (
         <div className="flex md:flex-row items-center p-10 h-full">
-            <div className="flex flex-col md:flex-row md:space-x-10 mt-10 md:mt-0 ">
+            <div className="flex flex-col md:flex-row md:space-x-10 mt-2 md:mt-0 ">
                 <div className="basis-1/2 flex flex-col mb-5">
                     <div className='pb-5'>
                         <Heading heading='About me' level='h2' />

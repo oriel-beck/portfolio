@@ -1,3 +1,5 @@
+@use '../../colors.module.scss' as colors;
+
 input:focus, textarea:focus {
-    outline: #E91E63 2px solid;
+    outline: colors.$label-color 2px solid;
 }

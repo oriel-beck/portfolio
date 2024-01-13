@@ -1,12 +1,14 @@
 // colors
 $primary-color: #E91E63;
-$chip-color: #85002D;
+$chip-color: #DD326C;
+$label-color: #F64782;
 $bg-1: #222222;
 $bg-2: #373737;
 
 :export {
   primaryColor: $primary-color;
   chipColor: $chip-color;
+  labelColor: $label-color;
   bg1: $bg-1;
   bg2: $bg-2;
 }

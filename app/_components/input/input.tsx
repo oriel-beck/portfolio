@@ -8,7 +8,7 @@ export default function Input({ label, name, placeholder, id, type = "text", req
             <span className="pb-1">
                 <Label label={label} id={id} />
             </span>
-            <textarea required={required} className="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5 h-full" id={id} name={name} placeholder={placeholder} />
+            <textarea required={required} className="bg-transparent border border-gray-300 text-white text-sm rounded-lg block w-full p-2.5 h-full" id={id} name={name} placeholder={placeholder} />
         </div>
     )
 
@@ -17,7 +17,7 @@ export default function Input({ label, name, placeholder, id, type = "text", req
             <span className="pb-1">
                 <Label label={label} id={id} />
             </span>
-            <input required={required} className="bg-gray-300 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" id={id} name={name} placeholder={placeholder} type={type} />
+            <input required={required} className="bg-transparent border border-gray-300 text-white text-sm rounded-lg block w-full p-2.5" id={id} name={name} placeholder={placeholder} type={type} />
         </div>
     )
 }
