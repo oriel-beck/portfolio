@@ -9,9 +9,10 @@ a.link:after {
   transform-origin: left;
 }
 
-a.link:hover:after {
+a.link:hover:after, a.link.active:after {
   transform: scaleX(1);
 }
+
 
 a.icon:hover {
   path {
